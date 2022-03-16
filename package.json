@@ -8,6 +8,7 @@
     "validate": "svelte-check",
     "lint:fix": "eslint --ext .js,.vue,.svelte --fix"
   },
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^16.0.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
