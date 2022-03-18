@@ -7,8 +7,10 @@
     "start": "sirv public",
     "validate": "svelte-check",
     "lint": "eslint . --ext .js,.ts,.svelte --cache",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "prepare": "husky install"
   },
+  "pre-commit": "lint-staged",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^16.0.0",
@@ -33,7 +35,8 @@
     "tailwindcss": "^2.0.2",
     "tslib": "^2.0.0",
     "typescript": "^3.9.3",
-    "webpack": "^5.70.0"
+    "webpack": "^5.70.0",
+    "husky": "^7.0.0"
   },
   "dependencies": {
     "sirv-cli": "^1.0.0"
