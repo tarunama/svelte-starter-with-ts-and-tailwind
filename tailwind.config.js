@@ -1,5 +1,5 @@
 module.exports = {
-  purge: {
+  content: {
     enabled: !process.env.ROLLUP_WATCH,
     mode: "all",
     content: ["./**/**/*.html", "./**/**/*.svelte"],
@@ -12,11 +12,7 @@ module.exports = {
         ),
     },
   },
-  darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
-  },
-  variants: {
     extend: {},
   },
   plugins: [],
