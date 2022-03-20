@@ -7,8 +7,8 @@
     "start": "sirv public",
     "validate": "svelte-check",
     "lint": "eslint . --ext .js,.ts,.svelte --cache",
-    "lint:fix": "yarn lint --fix",
-    "check:all": "yarn validate && yarn lint && yarn build",
+    "lint:fix": "npm lint --fix",
+    "check:all": "npm validate && npm lint && npm build",
     "prepare": "husky install"
   },
   "private": true,
