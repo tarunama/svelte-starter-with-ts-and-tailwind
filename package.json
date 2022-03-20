@@ -9,8 +9,19 @@
     "lint": "eslint . --ext .js,.ts,.svelte --cache",
     "lint:fix": "npm lint --fix",
     "check:all": "npm validate && npm lint && npm build",
+    "bundlesize": "bundlesize",
     "prepare": "husky install"
   },
+  "bundlesize": [
+    {
+      "path": "./public/build/bundle.js",
+      "maxSize": "10 kB"
+    },
+    {
+      "path": "./public/build/bundle.css",
+      "maxSize": "5 kB"
+    }
+  ],
   "private": true,
   "pre-commit": "lint-staged",
   "license": "MIT",
@@ -22,6 +33,7 @@
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
     "autoprefixer": "^10.4.4",
+    "bundlesize": "^0.18.1",
     "eslint": "^8.11.0",
     "eslint-plugin-svelte3": "^3.4.1",
     "husky": "^7.0.0",
