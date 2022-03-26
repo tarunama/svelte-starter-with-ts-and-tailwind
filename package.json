@@ -10,6 +10,7 @@
     "lint:fix": "npm lint --fix",
     "check:all": "npm validate && npm lint && npm build",
     "bundlesize": "bundlesize",
+    "tsc": "tsc --noEmit",
     "prepare": "husky install"
   },
   "bundlesize": [
