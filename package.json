@@ -11,6 +11,7 @@
     "check:all": "npm validate && npm lint && npm build",
     "bundlesize": "bundlesize",
     "tsc": "tsc --noEmit",
+    "prettier": "prettier --write .",
     "prepare": "husky install"
   },
   "bundlesize": [
