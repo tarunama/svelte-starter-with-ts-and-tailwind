@@ -21,7 +21,6 @@
     "@types/cookie": "^0.4.1",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
-    "bundlesize": "^0.18.1",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
@@ -40,16 +39,6 @@
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1"
   },
-  "bundlesize": [
-    {
-      "path": "./public/build/bundle.js",
-      "maxSize": "10 kB"
-    },
-    {
-      "path": "./public/build/bundle.css",
-      "maxSize": "5 kB"
-    }
-  ],
   "private": true,
   "pre-commit": "lint-staged",
   "license": "MIT"
