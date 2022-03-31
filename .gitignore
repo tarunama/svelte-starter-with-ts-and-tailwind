@@ -1,5 +1,8 @@
 /node_modules/
+
+# svelte
 /public/build/
+.svelte-kit/
 
 .DS_Store
 

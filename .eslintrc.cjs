@@ -26,7 +26,4 @@ module.exports = {
     "linebreak-style": [2, "unix"],
     semi: [2, "always"],
   },
-  settings: {
-    "svelte3/typescript": () => require("typescript"), // pass the TypeScript package to the Svelte plugin
-  },
 };
