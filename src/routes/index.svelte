@@ -1,5 +1,9 @@
 <script>
-  const s = "SvelteKit";
+  const s = "Svelte";
 </script>
 
-<h1 class="text-red-50">Hello, {s}!</h1>
+<main>
+  <article>
+    <h1 class="text-red text-center text-2xl font-bold">Hello, {s}!</h1>
+  </article>
+</main>
