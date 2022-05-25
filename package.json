@@ -19,7 +19,7 @@
     "bundlesize": "bundlesize"
   },
   "devDependencies": {
-    "@playwright/test": "^1.22.1",
+    "@playwright/test": "^1.22.2",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "@types/cookie": "^0.5.1",
