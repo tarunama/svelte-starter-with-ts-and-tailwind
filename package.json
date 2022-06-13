@@ -35,7 +35,7 @@
     "svelte-check": "^2.7.1",
     "svelte-preprocess": "^4.10.5",
     "tslib": "^2.4.0",
-    "typescript": "~4.7.2",
+    "typescript": "~4.7.3",
     "postcss": "^8.4.14",
     "postcss-load-config": "^4.0.1",
     "autoprefixer": "^10.4.7",
