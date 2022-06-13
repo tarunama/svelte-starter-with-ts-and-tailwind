@@ -18,6 +18,9 @@
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "bundlesize": "bundlesize"
   },
+  "engines": {
+    "node": ">=16.7"
+  },
   "devDependencies": {
     "@playwright/test": "^1.22.2",
     "@sveltejs/adapter-auto": "next",
