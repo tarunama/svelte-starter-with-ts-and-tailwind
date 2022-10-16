@@ -6,7 +6,7 @@
   "pre-commit": "lint-staged",
   "license": "MIT",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "vite dev",
     "build": "vite build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
