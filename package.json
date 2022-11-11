@@ -22,11 +22,6 @@
       "npm run lint"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "engines": {
     "node": ">=16.7"
   },
