@@ -17,6 +17,11 @@
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "bundlesize": "bundlesize"
   },
+  "lint-staged": {
+    "*.{svelte,js,ts}": [
+      "npm run lint"
+    ]
+  },
   "engines": {
     "node": ">=16.7"
   },
