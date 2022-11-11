@@ -15,8 +15,8 @@ const config = {
 
   resolve: {
     alias: {
-      $img: path.resolve("src/images")
-    }
+      $img: path.resolve("src/images"),
+    },
   },
 
   kit: {
@@ -30,10 +30,10 @@ const config = {
     },
     resolve: {
       alias: {
-        $components: path.resolve("./src/components")
-      }
-    }
-  }
+        $components: path.resolve("./src/components"),
+      },
+    },
+  },
 };
 
 export default config;
