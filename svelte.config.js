@@ -1,3 +1,5 @@
+import * as path from "path";
+
 import adapter from "@sveltejs/adapter-auto";
 import preprocess from "svelte-preprocess";
 
@@ -11,8 +13,26 @@ const config = {
     }),
   ],
 
+  resolve: {
+    alias: {
+      $img: path.resolve("src/images"),
+    },
+  },
+
   kit: {
     adapter: adapter(),
+  },
+
+  vite: {
+    mode: process.env.NODE_ENV,
+    define: {
+      "process.env": process.env,
+    },
+    resolve: {
+      alias: {
+        $components: path.resolve("./src/components"),
+      },
+    },
   },
 };
 
