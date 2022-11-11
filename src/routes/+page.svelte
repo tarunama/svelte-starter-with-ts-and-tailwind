@@ -1,6 +1,4 @@
 <script>
-  import Button from "src/components/Button.svelte";
-
   const s = "Svelte";
 </script>
 

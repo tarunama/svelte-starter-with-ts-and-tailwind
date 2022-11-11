@@ -22,6 +22,18 @@ const config = {
   kit: {
     adapter: adapter(),
   },
+
+  vite: {
+    mode: process.env.NODE_ENV,
+    define: {
+      "process.env": process.env,
+    },
+    resolve: {
+      alias: {
+        $components: path.resolve("./src/components")
+      }
+    }
+  }
 };
 
 export default config;
