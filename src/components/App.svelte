@@ -6,6 +6,6 @@
   <h1>components</h1>
   <div>
     <p>Button</p>
-    <Button />
+    <Button text="sample button" />
   </div>
 </main>
