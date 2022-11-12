@@ -13,6 +13,8 @@ const config = {
     }),
   ],
 
+  extensions: [".svelte"],
+
   resolve: {
     alias: {
       $img: path.resolve("src/images"),
