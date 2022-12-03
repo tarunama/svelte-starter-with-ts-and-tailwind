@@ -5,11 +5,11 @@
 Install the dependencies...
 
 ```bash
-npm install
+pnpm install
 ```
 
 ...then start:
 
 ```bash
-npm run dev
+pnpm dev
 ```
