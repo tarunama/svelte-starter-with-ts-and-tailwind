@@ -1,6 +1,8 @@
-name: eslint, build
+name: lint-and-build
 
-on: push
+on:
+  pull_request:
+    types: [opened]
 
 jobs:
   ci:
