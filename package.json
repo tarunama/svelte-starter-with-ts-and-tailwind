@@ -20,16 +20,16 @@
   },
   "lint-staged": {
     "*.{svelte,js,ts}": [
-      "pnpm lint"
+      "npm run lint"
     ]
   },
-  "packageManager": "pnpm@7.17.0",
+  "packageManager": "npm@8.19.2",
   "engines": {
     "node": ">=16.14",
-    "pnpm": "^7.0.0"
+    "npm": "^8.0.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.27.1",
+    "@playwright/test": "^1.28.1",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "@types/cookie": "^0.5.1",
