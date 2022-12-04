@@ -8,3 +8,6 @@
 
 # eslint
 .eslintcache
+/test-results/
+/playwright-report/
+/playwright/.cache/
