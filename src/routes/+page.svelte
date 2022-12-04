@@ -5,8 +5,8 @@
 </script>
 
 <main>
-  <article class="text-center">
-    <h1 class="text-redtext-2xl font-bold">Hello, {s}!</h1>
+  <article>
+    <h1 class="text-center text-redtext-2xl font-bold">Hello, {s}!</h1>
     <App />
   </article>
 </main>
