@@ -55,7 +55,7 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "@fontsource/fira-mono": "^4.5.10",
+    "@fontsource/fira-mono": "^5.2.7",
     "@lukeed/uuid": "^2.0.0"
   }
 }
